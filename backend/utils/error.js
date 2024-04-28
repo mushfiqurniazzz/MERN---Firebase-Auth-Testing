@@ -6,5 +6,5 @@ const errorHandler = (statusCode, message) => {
     return error;
 };
 
-//exporting the error handler funcction
+//exporting the error handler function
 module.exports = errorHandler
