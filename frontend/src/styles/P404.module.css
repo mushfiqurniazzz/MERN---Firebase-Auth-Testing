@@ -1,0 +1,15 @@
+.h1 {
+  color: white;
+  background-color: black;
+}
+Button {
+  color: white !important;
+  text-decoration: none !important;
+  padding: 0 3rem !important;
+  margin: 1rem !important;
+  font-weight: bold !important;
+}
+a {
+  text-decoration: none !important;
+  color: white !important;
+}

@@ -1,0 +1,46 @@
+body {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  margin: 0;
+  background-image: url(./img/bg.jpg);
+  background-position: center;
+  background-size: cover;
+}
+#card {
+  width: 30rem;
+  color: white;
+  height: 21rem !important;
+  align-items: center;
+  padding: 1rem;
+  background-color: rgb(71, 97, 96);
+  border: 0.3rem solid white;
+  background-color: rgba(21, 83, 94, 0.521);
+  font-weight: bold;
+}
+#card h2 {
+  text-align: center;
+  padding-bottom: 1rem;
+}
+#card label,
+input {
+  font-weight: bold;
+  margin: 1rem !important;
+  margin-bottom: 1rem !important;
+}
+#card Button {
+  color: white !important;
+  text-decoration: none !important;
+  padding: 0.2rem !important;
+  padding-right: 1rem !important;
+  padding-left: 1rem !important;
+  margin: 1rem !important;
+  font-weight: bold;
+}
+#card a {
+  text-decoration: none !important;
+  color: white;
+}
+#button_div {
+  display: flex !important;
+}
