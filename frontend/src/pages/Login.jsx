@@ -9,12 +9,14 @@ import OAuth from "../components/OAuth";
 
 //main function or page componenet
 function Login() {
+
   //defining states to use in send request and update with login functions
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [error, setError] = useState(false);
   const [isLogin, setLogin] = useState(false);
   const history = useHistory();
+  
   //login function with axios
   const handleLogin = async (e) => {
     e.preventDefault(); // Prevent default form submission behavior
