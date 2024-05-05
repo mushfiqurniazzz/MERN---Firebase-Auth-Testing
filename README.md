@@ -1,5 +1,9 @@
 <h1>MERN - Firebase Auth Project</h1>
 
+
+https://github.com/mushfiqurniazzz/MERN---Firebase-Auth-Testing/assets/148959859/4525d79d-0803-4978-934c-c69367c45699
+
+
 <p>This MERN app allows users to create a account using their gmail account with the help of firebase. It has functionality for hashing the passwords with bcryptjs before saving in DB, saving cookies in local storage during login process with the help of jsonwebtoken and saving every single accounts created in MongoDB. It uses MongoDB as the database to store data, Express.js for handling server-side logic, React.js for building the user interface, and Node.js for server-side runtime environment. The app provides a seamless experience for users to easily signup and login.</p>
 <h3>Running the Project Locally</h3>
   <p>To run this project on your local machine, follow these steps:
