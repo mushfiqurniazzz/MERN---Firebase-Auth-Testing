@@ -6,7 +6,6 @@ import { GoogleAuthProvider, signInWithPopup, getAuth } from "firebase/auth";
 import { app } from "../FireBase";
 import { useLocation, useHistory } from "react-router-dom";
 import axios from "axios";
-import PropTypes from "prop-types";
 
 //export function called OAuth
 export default function OAuth() {
