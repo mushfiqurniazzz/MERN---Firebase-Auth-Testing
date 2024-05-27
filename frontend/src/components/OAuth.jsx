@@ -59,8 +59,3 @@ export default function OAuth() {
     </Button>
   );
 }
-
-//this is not an absolute neccessity but helps with code readability and etc
-OAuth.propTypes = {
-  history: PropTypes.object.isRequired
-};
